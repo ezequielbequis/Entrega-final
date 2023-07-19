@@ -1,0 +1,33 @@
+/*MEDIA QUERIES PARA BOTONES*/
+
+@media (max-width:480px){
+    .boton{
+        width: 100%;
+    }
+    .boton-comprar{
+        width: 100%;
+    }
+    .boton-formulario{
+        width: 100%;
+    }
+    .boton-playlist{
+        width: 118px;
+        height: 32px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .boton{
+        width: 80%;
+    }
+    .boton-comprar{
+        width: 80%;
+    }
+    .boton-formulario{
+        width: 80%;
+    }
+    .boton-playlist{
+        width: 120px;
+        height: 32px;
+    }
+}

@@ -1,0 +1,40 @@
+/*VARIABLES*/
+
+/*Colores*/
+
+$gris: #a2aaae;
+$gris-suave: #e5e5e5da;
+$negro: #000000c2;
+$negro-suave: #000000b6;
+
+
+/*Background colors discografia*/
+.caja-siempre-es-hoy{
+    background: linear-gradient(#a2aaae, #db5a4e);
+}
+
+.caja-amor-amarillo{
+    background: linear-gradient(#F2E422, #df9712);
+}
+
+.caja-bocanada{
+    background: linear-gradient(#005ba4, #272B73);
+}
+
+.caja-fuerza-natural{
+    background: linear-gradient(#4F664A, #37403B);
+}
+
+.verde-naturaleza-claro{
+    background-color: #8d9b82;
+}
+
+.caja-ahi-vamos{
+    background: radial-gradient(#444444, #1f2222);
+}
+
+/*Tamaños de fuente*/
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-22: 22px;
+$fs-26: 26px;

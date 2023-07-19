@@ -1,0 +1,32 @@
+/*MODO OSCURO Y CLARO*/
+
+$fondo: claro;  /*puede ser "claro" u "oscuro"*/
+
+/*sm: segun el modo*/
+
+@if $fondo == oscuro{
+    body{
+        background-color: #0f0f0f;
+    }
+
+    .letra-sm{
+        color: white;
+    }
+
+    .letra-header-sm{
+        color: white;
+        &:hover{
+            color: $gris-suave;
+        }
+    }
+
+    .img-sm{ 
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(328deg) brightness(104%) contrast(101%);
+    }
+
+}
+@else if $fondo == claro{
+    body{
+        background-color: white;
+    }
+}

@@ -1,0 +1,62 @@
+/*FOOTER*/
+
+footer{
+    display: flex;
+    section{
+        border-top: solid black 2px;
+        div{
+            nav{
+                padding-top: 30px;
+                padding-bottom: 30px;
+                ul{
+                    padding: 0;
+                    li{
+                        list-style-type: none;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        a{
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+            div{
+                p{
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 5% 40px 5%;
+}
+
+.pie-pagina{
+    display: flex;
+    justify-content: center;
+    font-size: $fs-18;
+    justify-content: space-between;
+    border-top: solid black 2px;
+    padding-top: 20px;
+}
+
+.politicas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: $fs-22;
+    text-decoration: none;
+}

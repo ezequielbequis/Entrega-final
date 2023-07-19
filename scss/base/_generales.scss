@@ -1,0 +1,88 @@
+/*GENERALES*/
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.centrado{     
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: black;
+}
+
+/*Formato para textos y titulos*/
+.titulos{
+    font-size: $fs-26;
+    color: $negro;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.parrafos{
+    font-size: $fs-20;
+    color: $negro-suave;
+    font-weight: 400;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.letra-producto{
+    font-size: 24px;
+    text-align: start;
+    margin: 0px;
+}
+
+.letra-precio{
+    font-size: $fs-18;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.letra-formulario{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:rgba(0, 0, 0, 0.76);
+    font-weight: 500;
+}
+
+.letra-playlist{
+    font-size: $fs-18;
+    text-decoration: none;
+    color: white;
+}
+
+.enlace{
+    font-size: $fs-20;
+    color: rgba(12, 138, 211, 0.952);
+    font-weight: 400;
+    margin: 0;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    &:hover{
+        color: rgba(10, 108, 165, 0.952);
+    }
+}
+
+/*Bordes redondeados para videos*/
+.videos{
+    border-radius: 40px;
+}
+
+/*Ajuste para imagenes*/
+.imagen-pequeña{
+    width: 250px;
+    height: 250px;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover{
+        transition: transform 0.3s;
+        transform: scale(1.01);
+    }
+}
+

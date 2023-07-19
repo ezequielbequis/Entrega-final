@@ -1,0 +1,76 @@
+/*CAJAS Y BOTONES*/
+
+@mixin caja{
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 40px 20px 40px;
+}
+
+.caja-producto{
+    border: solid $gris 2px;
+    @include caja;
+}
+
+/*caja para login, carrito y contacto*/
+.caja-formulario{
+    height: 380px;
+    border: solid $gris 2px;
+    border-radius: 5px;
+}  
+
+/*cajas para Discografia*/
+.caja-album{
+    color: white;
+    @include caja;
+}
+
+/*Botones*/
+@mixin carac-boton{
+    border-radius: 4px;
+    display: flex;
+    color: white;
+    border: 0;
+    font-size: $fs-18;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        transform: scale(1.01);
+    }
+}
+
+.boton-comprar{
+    width: 165px;
+    height: 32px;
+    background: linear-gradient(90deg, rgba(0,95,238,1) 50%, rgb(4, 186, 223) 100%);
+    @include carac-boton;
+    &:hover{
+        transition-property : 0.3s;
+        background: linear-gradient(90deg, rgb(4, 77, 187) 50%, rgb(5, 143, 170)100%);
+    }
+}
+
+.boton{
+    width: 100px;
+    height: 32px;
+    @include carac-boton;
+}
+
+.boton-formulario{
+    width: 100px;
+    height: 32px;
+    @include carac-boton;
+    background: linear-gradient(90deg, rgba(0,95,238,1) 50%, rgb(4, 186, 223) 100%);
+    &:hover{
+        transition-property : 0.3s;
+        background: linear-gradient(90deg, rgb(4, 77, 187) 50%, rgb(5, 143, 170)100%);
+    }
+}
+
+.boton-playlist{
+    width: 120px;
+    height: 32px;
+    @include carac-boton;
+}
+
